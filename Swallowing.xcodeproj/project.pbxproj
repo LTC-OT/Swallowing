@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A08725825B0F76900A9711A /* SignsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08725725B0F76900A9711A /* SignsView.swift */; };
+		1A08726025B0F97500A9711A /* Signs2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08725F25B0F97500A9711A /* Signs2View.swift */; };
+		1A08726625B0FA6300A9711A /* SignsDetail2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08726525B0FA6300A9711A /* SignsDetail2View.swift */; };
+		1A08727325B0FAA600A9711A /* SignsHeader2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08727225B0FAA600A9711A /* SignsHeader2View.swift */; };
+		1A08727825B0FAC200A9711A /* SignsRow2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08727725B0FAC200A9711A /* SignsRow2View.swift */; };
+		1A08727D25B1084000A9711A /* SwallowingAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A08727C25B1084000A9711A /* SwallowingAppView.swift */; };
+		1AA87DF725B0CF0B00A137B2 /* SwallowingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87DF625B0CF0B00A137B2 /* SwallowingApp.swift */; };
+		1AA87DF925B0CF0B00A137B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87DF825B0CF0B00A137B2 /* ContentView.swift */; };
+		1AA87DFB25B0CF0C00A137B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA87DFA25B0CF0C00A137B2 /* Assets.xcassets */; };
+		1AA87DFE25B0CF0C00A137B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA87DFD25B0CF0C00A137B2 /* Preview Assets.xcassets */; };
+		1AA87E2A25B0D02000A137B2 /* dysphagiaProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E2925B0D02000A137B2 /* dysphagiaProblem.swift */; };
+		1AA87E2F25B0D4B600A137B2 /* SignsDysphagia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E2E25B0D4B600A137B2 /* SignsDysphagia.swift */; };
+		1AA87E3425B0DC9D00A137B2 /* SignsDysphagia2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E3325B0DC9D00A137B2 /* SignsDysphagia2.swift */; };
+		1AA87E4225B0EDD700A137B2 /* SignsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E4125B0EDD700A137B2 /* SignsRowView.swift */; };
+		1AA87E4725B0EDEB00A137B2 /* SignsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E4625B0EDEB00A137B2 /* SignsHeaderView.swift */; };
+		1AA87E4C25B0EE0700A137B2 /* SignsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA87E4B25B0EE0700A137B2 /* SignsDetailView.swift */; };
+		7011116F28AC444800A6BB33 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7011116E28AC444800A6BB33 /* CustomModifiers.swift */; };
+		701BCD812714F2DA006B6B60 /* StudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701BCD802714F2DA006B6B60 /* StudentView.swift */; };
+		705C812E26CEBF75004749E4 /* OralrecView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705C812D26CEBF75004749E4 /* OralrecView.swift */; };
+		705C813026CED45B004749E4 /* OralRecData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705C812F26CED45B004749E4 /* OralRecData.swift */; };
+		7072B3E427163EF90011DCF1 /* SwallowingQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072B3E327163EF90011DCF1 /* SwallowingQuizView.swift */; };
+		7072B3E7271643470011DCF1 /* FeedingResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072B3E6271643470011DCF1 /* FeedingResultsView.swift */; };
+		7072B3E92716437B0011DCF1 /* SwallowingResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7072B3E82716437B0011DCF1 /* SwallowingResultsView.swift */; };
+		707D58B62705312500361AFA /* DietTextureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D58AF2705312500361AFA /* DietTextureView.swift */; };
+		707D58B82705312500361AFA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D58B12705312500361AFA /* HomeView.swift */; };
+		707D58B92705312500361AFA /* SwallowingDisordersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D58B22705312500361AFA /* SwallowingDisordersView.swift */; };
+		709B2A1C28525C6B001A64D6 /* SwallowingDisorderSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B2A1B28525C6B001A64D6 /* SwallowingDisorderSheet.swift */; };
+		709B2A1E28525DBE001A64D6 /* SwallowingDisorderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709B2A1D28525DBE001A64D6 /* SwallowingDisorderHeader.swift */; };
+		70A82F9E281AE244006E6519 /* EtcSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82F9D281AE244006E6519 /* EtcSheet.swift */; };
+		70A82FA0281AE25A006E6519 /* MincedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82F9F281AE25A006E6519 /* MincedSheet.swift */; };
+		70A82FA2281AE294006E6519 /* PureedSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FA1281AE294006E6519 /* PureedSheet.swift */; };
+		70A82FA5281AEB67006E6519 /* EtcHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FA4281AEB67006E6519 /* EtcHeader.swift */; };
+		70A82FA7281AEB7E006E6519 /* HeaderMinced.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FA6281AEB7E006E6519 /* HeaderMinced.swift */; };
+		70A82FA9281AEB94006E6519 /* HeaderPureed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FA8281AEB94006E6519 /* HeaderPureed.swift */; };
+		70A82FAB281AEBAD006E6519 /* HeaderThickened.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FAA281AEBAD006E6519 /* HeaderThickened.swift */; };
+		70A82FAD281AEBC6006E6519 /* HeaderMixed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FAC281AEBC6006E6519 /* HeaderMixed.swift */; };
+		70A82FAF281AEBE3006E6519 /* HeaderSticky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FAE281AEBE3006E6519 /* HeaderSticky.swift */; };
+		70A82FB1281AEC51006E6519 /* HeaderHard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FB0281AEC51006E6519 /* HeaderHard.swift */; };
+		70A82FB3281AEC6B006E6519 /* HeaderDry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A82FB2281AEC6B006E6519 /* HeaderDry.swift */; };
+		70A9047C26827D50003EF000 /* AssessmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A9047B26827D50003EF000 /* AssessmentView.swift */; };
+		70C4E5472818E7340066EA30 /* ThickenedFluidsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E5462818E7340066EA30 /* ThickenedFluidsSheet.swift */; };
+		70C4E5492818EA700066EA30 /* MixedTextureSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E5482818EA700066EA30 /* MixedTextureSheet.swift */; };
+		70C4E54B2818EB450066EA30 /* StickySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E54A2818EB450066EA30 /* StickySheet.swift */; };
+		70C4E54D2818EBA00066EA30 /* HardToChewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E54C2818EBA00066EA30 /* HardToChewSheet.swift */; };
+		70C4E54F2818EC160066EA30 /* DrySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C4E54E2818EC160066EA30 /* DrySheet.swift */; };
+		70CFA1462712996300E90A9A /* FeedingQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CFA1452712996300E90A9A /* FeedingQuizView.swift */; };
+		70E901D1281B87650024C563 /* OralPhaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901D0281B87650024C563 /* OralPhaseHeader.swift */; };
+		70E901D3281B87800024C563 /* PharyngealPhaseHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901D2281B87800024C563 /* PharyngealPhaseHeader.swift */; };
+		70E901D5281B87920024C563 /* AspirationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901D4281B87920024C563 /* AspirationHeader.swift */; };
+		70E901D7281B8BEE0024C563 /* OralSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901D6281B8BEE0024C563 /* OralSheet.swift */; };
+		70E901D9281B8C020024C563 /* PharyngealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901D8281B8C020024C563 /* PharyngealSheet.swift */; };
+		70E901DB281B8C1A0024C563 /* AspirationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E901DA281B8C1A0024C563 /* AspirationSheet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A08725725B0F76900A9711A /* SignsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsView.swift; sourceTree = "<group>"; };
+		1A08725F25B0F97500A9711A /* Signs2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signs2View.swift; sourceTree = "<group>"; };
+		1A08726525B0FA6300A9711A /* SignsDetail2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsDetail2View.swift; sourceTree = "<group>"; };
+		1A08727225B0FAA600A9711A /* SignsHeader2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsHeader2View.swift; sourceTree = "<group>"; };
+		1A08727725B0FAC200A9711A /* SignsRow2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsRow2View.swift; sourceTree = "<group>"; };
+		1A08727C25B1084000A9711A /* SwallowingAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingAppView.swift; sourceTree = "<group>"; };
+		1AA87DF325B0CF0B00A137B2 /* Swallowing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swallowing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA87DF625B0CF0B00A137B2 /* SwallowingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingApp.swift; sourceTree = "<group>"; };
+		1AA87DF825B0CF0B00A137B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AA87DFA25B0CF0C00A137B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AA87DFD25B0CF0C00A137B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AA87DFF25B0CF0C00A137B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AA87E2925B0D02000A137B2 /* dysphagiaProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dysphagiaProblem.swift; sourceTree = "<group>"; };
+		1AA87E2E25B0D4B600A137B2 /* SignsDysphagia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsDysphagia.swift; sourceTree = "<group>"; };
+		1AA87E3325B0DC9D00A137B2 /* SignsDysphagia2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsDysphagia2.swift; sourceTree = "<group>"; };
+		1AA87E4125B0EDD700A137B2 /* SignsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsRowView.swift; sourceTree = "<group>"; };
+		1AA87E4625B0EDEB00A137B2 /* SignsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsHeaderView.swift; sourceTree = "<group>"; };
+		1AA87E4B25B0EE0700A137B2 /* SignsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignsDetailView.swift; sourceTree = "<group>"; };
+		7011116E28AC444800A6BB33 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		701BCD802714F2DA006B6B60 /* StudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentView.swift; sourceTree = "<group>"; };
+		705C812D26CEBF75004749E4 /* OralrecView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OralrecView.swift; sourceTree = "<group>"; };
+		705C812F26CED45B004749E4 /* OralRecData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OralRecData.swift; sourceTree = "<group>"; };
+		7072B3E327163EF90011DCF1 /* SwallowingQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingQuizView.swift; sourceTree = "<group>"; };
+		7072B3E6271643470011DCF1 /* FeedingResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingResultsView.swift; sourceTree = "<group>"; };
+		7072B3E82716437B0011DCF1 /* SwallowingResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingResultsView.swift; sourceTree = "<group>"; };
+		707D58AF2705312500361AFA /* DietTextureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DietTextureView.swift; path = FirstViews/DietTextureView.swift; sourceTree = "<group>"; };
+		707D58B12705312500361AFA /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = FirstViews/HomeView.swift; sourceTree = "<group>"; };
+		707D58B22705312500361AFA /* SwallowingDisordersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwallowingDisordersView.swift; path = FirstViews/SwallowingDisordersView.swift; sourceTree = "<group>"; };
+		709B2A1B28525C6B001A64D6 /* SwallowingDisorderSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingDisorderSheet.swift; sourceTree = "<group>"; };
+		709B2A1D28525DBE001A64D6 /* SwallowingDisorderHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwallowingDisorderHeader.swift; sourceTree = "<group>"; };
+		70A82F9D281AE244006E6519 /* EtcSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcSheet.swift; sourceTree = "<group>"; };
+		70A82F9F281AE25A006E6519 /* MincedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MincedSheet.swift; sourceTree = "<group>"; };
+		70A82FA1281AE294006E6519 /* PureedSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureedSheet.swift; sourceTree = "<group>"; };
+		70A82FA4281AEB67006E6519 /* EtcHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcHeader.swift; sourceTree = "<group>"; };
+		70A82FA6281AEB7E006E6519 /* HeaderMinced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMinced.swift; sourceTree = "<group>"; };
+		70A82FA8281AEB94006E6519 /* HeaderPureed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderPureed.swift; sourceTree = "<group>"; };
+		70A82FAA281AEBAD006E6519 /* HeaderThickened.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderThickened.swift; sourceTree = "<group>"; };
+		70A82FAC281AEBC6006E6519 /* HeaderMixed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderMixed.swift; sourceTree = "<group>"; };
+		70A82FAE281AEBE3006E6519 /* HeaderSticky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderSticky.swift; sourceTree = "<group>"; };
+		70A82FB0281AEC51006E6519 /* HeaderHard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHard.swift; sourceTree = "<group>"; };
+		70A82FB2281AEC6B006E6519 /* HeaderDry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDry.swift; sourceTree = "<group>"; };
+		70A9047B26827D50003EF000 /* AssessmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentView.swift; sourceTree = "<group>"; };
+		70C4E5462818E7340066EA30 /* ThickenedFluidsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThickenedFluidsSheet.swift; sourceTree = "<group>"; };
+		70C4E5482818EA700066EA30 /* MixedTextureSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedTextureSheet.swift; sourceTree = "<group>"; };
+		70C4E54A2818EB450066EA30 /* StickySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickySheet.swift; sourceTree = "<group>"; };
+		70C4E54C2818EBA00066EA30 /* HardToChewSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardToChewSheet.swift; sourceTree = "<group>"; };
+		70C4E54E2818EC160066EA30 /* DrySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrySheet.swift; sourceTree = "<group>"; };
+		70CFA1452712996300E90A9A /* FeedingQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingQuizView.swift; sourceTree = "<group>"; };
+		70E901D0281B87650024C563 /* OralPhaseHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OralPhaseHeader.swift; sourceTree = "<group>"; };
+		70E901D2281B87800024C563 /* PharyngealPhaseHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharyngealPhaseHeader.swift; sourceTree = "<group>"; };
+		70E901D4281B87920024C563 /* AspirationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspirationHeader.swift; sourceTree = "<group>"; };
+		70E901D6281B8BEE0024C563 /* OralSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OralSheet.swift; sourceTree = "<group>"; };
+		70E901D8281B8C020024C563 /* PharyngealSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharyngealSheet.swift; sourceTree = "<group>"; };
+		70E901DA281B8C1A0024C563 /* AspirationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspirationSheet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA87DF025B0CF0B00A137B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A08726425B0FA3600A9711A /* Signs2View */ = {
+			isa = PBXGroup;
+			children = (
+				1A08726525B0FA6300A9711A /* SignsDetail2View.swift */,
+				1A08727225B0FAA600A9711A /* SignsHeader2View.swift */,
+				1A08727725B0FAC200A9711A /* SignsRow2View.swift */,
+			);
+			path = Signs2View;
+			sourceTree = "<group>";
+		};
+		1A96CA6A25B2531E00B93C91 /* FirstViews */ = {
+			isa = PBXGroup;
+			children = (
+				707D58AF2705312500361AFA /* DietTextureView.swift */,
+				707D58B12705312500361AFA /* HomeView.swift */,
+				707D58B22705312500361AFA /* SwallowingDisordersView.swift */,
+				701BCD802714F2DA006B6B60 /* StudentView.swift */,
+			);
+			path = FirstViews;
+			sourceTree = "<group>";
+		};
+		1AA87DEA25B0CF0B00A137B2 = {
+			isa = PBXGroup;
+			children = (
+				7011116D28AC442D00A6BB33 /* Extensions */,
+				70A82FA3281AEB36006E6519 /* HeaderCardsViews */,
+				70A82F9C281AE207006E6519 /* CardsTypeFood */,
+				70C4E5452818E6BD0066EA30 /* CardsInfo */,
+				1A96CA6A25B2531E00B93C91 /* FirstViews */,
+				1A08726425B0FA3600A9711A /* Signs2View */,
+				1AA87E3825B0ED7D00A137B2 /* SignsView */,
+				1AA87E2525B0CF5D00A137B2 /* Data */,
+				1AA87E2425B0CF4400A137B2 /* Model */,
+				1AA87DF525B0CF0B00A137B2 /* Swallowing */,
+				1AA87DF425B0CF0B00A137B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA87DF425B0CF0B00A137B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87DF325B0CF0B00A137B2 /* Swallowing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA87DF525B0CF0B00A137B2 /* Swallowing */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87DF625B0CF0B00A137B2 /* SwallowingApp.swift */,
+				1AA87DF825B0CF0B00A137B2 /* ContentView.swift */,
+				1A08727C25B1084000A9711A /* SwallowingAppView.swift */,
+				70A9047B26827D50003EF000 /* AssessmentView.swift */,
+				705C812D26CEBF75004749E4 /* OralrecView.swift */,
+				1A08725725B0F76900A9711A /* SignsView.swift */,
+				1A08725F25B0F97500A9711A /* Signs2View.swift */,
+				7072B3E5271642D40011DCF1 /* Quiz */,
+				1AA87DFA25B0CF0C00A137B2 /* Assets.xcassets */,
+				1AA87DFF25B0CF0C00A137B2 /* Info.plist */,
+				1AA87DFC25B0CF0C00A137B2 /* Preview Content */,
+			);
+			path = Swallowing;
+			sourceTree = "<group>";
+		};
+		1AA87DFC25B0CF0C00A137B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87DFD25B0CF0C00A137B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AA87E2425B0CF4400A137B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87E2925B0D02000A137B2 /* dysphagiaProblem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA87E2525B0CF5D00A137B2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87E2E25B0D4B600A137B2 /* SignsDysphagia.swift */,
+				1AA87E3325B0DC9D00A137B2 /* SignsDysphagia2.swift */,
+				705C812F26CED45B004749E4 /* OralRecData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		1AA87E3825B0ED7D00A137B2 /* SignsView */ = {
+			isa = PBXGroup;
+			children = (
+				1AA87E4B25B0EE0700A137B2 /* SignsDetailView.swift */,
+				1AA87E4625B0EDEB00A137B2 /* SignsHeaderView.swift */,
+				1AA87E4125B0EDD700A137B2 /* SignsRowView.swift */,
+			);
+			path = SignsView;
+			sourceTree = "<group>";
+		};
+		7011116D28AC442D00A6BB33 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7011116E28AC444800A6BB33 /* CustomModifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7072B3E5271642D40011DCF1 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				7072B3E327163EF90011DCF1 /* SwallowingQuizView.swift */,
+				7072B3E82716437B0011DCF1 /* SwallowingResultsView.swift */,
+				70CFA1452712996300E90A9A /* FeedingQuizView.swift */,
+				7072B3E6271643470011DCF1 /* FeedingResultsView.swift */,
+			);
+			path = Quiz;
+			sourceTree = "<group>";
+		};
+		70A82F9C281AE207006E6519 /* CardsTypeFood */ = {
+			isa = PBXGroup;
+			children = (
+				70A82F9D281AE244006E6519 /* EtcSheet.swift */,
+				70A82F9F281AE25A006E6519 /* MincedSheet.swift */,
+				70A82FA1281AE294006E6519 /* PureedSheet.swift */,
+			);
+			path = CardsTypeFood;
+			sourceTree = "<group>";
+		};
+		70A82FA3281AEB36006E6519 /* HeaderCardsViews */ = {
+			isa = PBXGroup;
+			children = (
+				70A82FA4281AEB67006E6519 /* EtcHeader.swift */,
+				70A82FA6281AEB7E006E6519 /* HeaderMinced.swift */,
+				70A82FA8281AEB94006E6519 /* HeaderPureed.swift */,
+				70A82FAA281AEBAD006E6519 /* HeaderThickened.swift */,
+				70A82FAC281AEBC6006E6519 /* HeaderMixed.swift */,
+				70A82FAE281AEBE3006E6519 /* HeaderSticky.swift */,
+				70A82FB0281AEC51006E6519 /* HeaderHard.swift */,
+				70A82FB2281AEC6B006E6519 /* HeaderDry.swift */,
+				70E901D0281B87650024C563 /* OralPhaseHeader.swift */,
+				70E901D2281B87800024C563 /* PharyngealPhaseHeader.swift */,
+				70E901D4281B87920024C563 /* AspirationHeader.swift */,
+				709B2A1D28525DBE001A64D6 /* SwallowingDisorderHeader.swift */,
+			);
+			path = HeaderCardsViews;
+			sourceTree = "<group>";
+		};
+		70C4E5452818E6BD0066EA30 /* CardsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				70C4E5462818E7340066EA30 /* ThickenedFluidsSheet.swift */,
+				70C4E5482818EA700066EA30 /* MixedTextureSheet.swift */,
+				70C4E54A2818EB450066EA30 /* StickySheet.swift */,
+				70C4E54C2818EBA00066EA30 /* HardToChewSheet.swift */,
+				70C4E54E2818EC160066EA30 /* DrySheet.swift */,
+				70E901D6281B8BEE0024C563 /* OralSheet.swift */,
+				70E901D8281B8C020024C563 /* PharyngealSheet.swift */,
+				70E901DA281B8C1A0024C563 /* AspirationSheet.swift */,
+				709B2A1B28525C6B001A64D6 /* SwallowingDisorderSheet.swift */,
+			);
+			path = CardsInfo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA87DF225B0CF0B00A137B2 /* Swallowing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA87E1825B0CF0D00A137B2 /* Build configuration list for PBXNativeTarget "Swallowing" */;
+			buildPhases = (
+				1AA87DEF25B0CF0B00A137B2 /* Sources */,
+				1AA87DF025B0CF0B00A137B2 /* Frameworks */,
+				1AA87DF125B0CF0B00A137B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swallowing;
+			productName = Swallowing;
+			productReference = 1AA87DF325B0CF0B00A137B2 /* Swallowing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA87DEB25B0CF0B00A137B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1AA87DF225B0CF0B00A137B2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1AA87DEE25B0CF0B00A137B2 /* Build configuration list for PBXProject "Swallowing" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA87DEA25B0CF0B00A137B2;
+			productRefGroup = 1AA87DF425B0CF0B00A137B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA87DF225B0CF0B00A137B2 /* Swallowing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA87DF125B0CF0B00A137B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA87DFE25B0CF0C00A137B2 /* Preview Assets.xcassets in Resources */,
+				1AA87DFB25B0CF0C00A137B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA87DEF25B0CF0B00A137B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70E901D1281B87650024C563 /* OralPhaseHeader.swift in Sources */,
+				70C4E5472818E7340066EA30 /* ThickenedFluidsSheet.swift in Sources */,
+				1AA87E4725B0EDEB00A137B2 /* SignsHeaderView.swift in Sources */,
+				1AA87E2A25B0D02000A137B2 /* dysphagiaProblem.swift in Sources */,
+				1AA87E4C25B0EE0700A137B2 /* SignsDetailView.swift in Sources */,
+				70E901D7281B8BEE0024C563 /* OralSheet.swift in Sources */,
+				70A82FA2281AE294006E6519 /* PureedSheet.swift in Sources */,
+				707D58B92705312500361AFA /* SwallowingDisordersView.swift in Sources */,
+				705C812E26CEBF75004749E4 /* OralrecView.swift in Sources */,
+				70A82FA9281AEB94006E6519 /* HeaderPureed.swift in Sources */,
+				1A08726025B0F97500A9711A /* Signs2View.swift in Sources */,
+				7011116F28AC444800A6BB33 /* CustomModifiers.swift in Sources */,
+				705C813026CED45B004749E4 /* OralRecData.swift in Sources */,
+				70A9047C26827D50003EF000 /* AssessmentView.swift in Sources */,
+				7072B3E92716437B0011DCF1 /* SwallowingResultsView.swift in Sources */,
+				1A08727D25B1084000A9711A /* SwallowingAppView.swift in Sources */,
+				70A82FAB281AEBAD006E6519 /* HeaderThickened.swift in Sources */,
+				1A08727325B0FAA600A9711A /* SignsHeader2View.swift in Sources */,
+				70A82FA0281AE25A006E6519 /* MincedSheet.swift in Sources */,
+				70A82FB1281AEC51006E6519 /* HeaderHard.swift in Sources */,
+				70E901D9281B8C020024C563 /* PharyngealSheet.swift in Sources */,
+				707D58B62705312500361AFA /* DietTextureView.swift in Sources */,
+				70A82FA7281AEB7E006E6519 /* HeaderMinced.swift in Sources */,
+				70A82FAF281AEBE3006E6519 /* HeaderSticky.swift in Sources */,
+				1AA87E3425B0DC9D00A137B2 /* SignsDysphagia2.swift in Sources */,
+				1AA87E2F25B0D4B600A137B2 /* SignsDysphagia.swift in Sources */,
+				1AA87DF925B0CF0B00A137B2 /* ContentView.swift in Sources */,
+				70A82FB3281AEC6B006E6519 /* HeaderDry.swift in Sources */,
+				70C4E54F2818EC160066EA30 /* DrySheet.swift in Sources */,
+				709B2A1E28525DBE001A64D6 /* SwallowingDisorderHeader.swift in Sources */,
+				701BCD812714F2DA006B6B60 /* StudentView.swift in Sources */,
+				709B2A1C28525C6B001A64D6 /* SwallowingDisorderSheet.swift in Sources */,
+				70E901D3281B87800024C563 /* PharyngealPhaseHeader.swift in Sources */,
+				1AA87DF725B0CF0B00A137B2 /* SwallowingApp.swift in Sources */,
+				1A08725825B0F76900A9711A /* SignsView.swift in Sources */,
+				1A08726625B0FA6300A9711A /* SignsDetail2View.swift in Sources */,
+				70C4E5492818EA700066EA30 /* MixedTextureSheet.swift in Sources */,
+				70E901D5281B87920024C563 /* AspirationHeader.swift in Sources */,
+				7072B3E7271643470011DCF1 /* FeedingResultsView.swift in Sources */,
+				70C4E54B2818EB450066EA30 /* StickySheet.swift in Sources */,
+				70E901DB281B8C1A0024C563 /* AspirationSheet.swift in Sources */,
+				7072B3E427163EF90011DCF1 /* SwallowingQuizView.swift in Sources */,
+				70C4E54D2818EBA00066EA30 /* HardToChewSheet.swift in Sources */,
+				707D58B82705312500361AFA /* HomeView.swift in Sources */,
+				70A82FA5281AEB67006E6519 /* EtcHeader.swift in Sources */,
+				70CFA1462712996300E90A9A /* FeedingQuizView.swift in Sources */,
+				70A82FAD281AEBC6006E6519 /* HeaderMixed.swift in Sources */,
+				1A08727825B0FAC200A9711A /* SignsRow2View.swift in Sources */,
+				1AA87E4225B0EDD700A137B2 /* SignsRowView.swift in Sources */,
+				70A82F9E281AE244006E6519 /* EtcSheet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1AA87E1625B0CF0D00A137B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1AA87E1725B0CF0D00A137B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = NO;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AA87E1925B0CF0D00A137B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swallowing/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Swallowing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Swallowing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1AA87E1A25B0CF0D00A137B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Swallowing/Preview Content\"";
+				DEVELOPMENT_TEAM = F8LUJQQRDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Swallowing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jaime-Fagnilli.Swallowing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA87DEE25B0CF0B00A137B2 /* Build configuration list for PBXProject "Swallowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA87E1625B0CF0D00A137B2 /* Debug */,
+				1AA87E1725B0CF0D00A137B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA87E1825B0CF0D00A137B2 /* Build configuration list for PBXNativeTarget "Swallowing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA87E1925B0CF0D00A137B2 /* Debug */,
+				1AA87E1A25B0CF0D00A137B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AA87DEB25B0CF0B00A137B2 /* Project object */;
+}
