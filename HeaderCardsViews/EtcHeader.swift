@@ -20,12 +20,7 @@ struct EtcHeader: View {
             Text("ETC Texture")
             
                 .frame(width: 85, height: 60)
-                .foregroundColor(.black)
-                .font(.headline)
-                .padding(60)
-                .background(Color.white)
-                .cornerRadius(40)
-                .shadow(color: Color.gray, radius: 4, x: 3, y: 3)
+                .headerStyle()
             
             
             
