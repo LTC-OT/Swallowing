@@ -45,3 +45,18 @@ extension View {
         modifier(Oral())
     }
 }
+struct Header: ViewModifier {
+    func body (content: Content) -> some View {
+        content
+            .foregroundColor(.black)
+            .font(.headline)
+            .padding(60)
+            .background(Color.white)
+            .cornerRadius(40)
+            .shadow(color: Color.gray, radius: 4, x: 3, y: 3)
+    }
+}
+
+extension View {
+  public  func headerStyle() -> some View {
+        modifier(Header())
